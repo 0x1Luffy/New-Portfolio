@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -5,7 +6,7 @@ import Skills from "./components/Skills"
 
 const page = () => {
   return (
-    <div className="min-h-[400vh] bg-black overflow-hidden">
+    <div className="min-h-screen bg-black overflow-hidden">
       <div className="dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] relative">
       <div className="max-w-7xl mx-auto p-5">
         <Navbar/>
@@ -19,6 +20,7 @@ const page = () => {
       <div className="max-w-7xl mx-auto p-5 mt-20 ">
         <Skills/>
         <Projects/>
+        <Footer/>
       </div>
     </div>
   )
