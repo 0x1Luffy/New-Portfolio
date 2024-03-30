@@ -3,7 +3,9 @@ import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-
+import { inject } from '@vercel/analytics';
+ 
+inject();
 const page = () => {
   return (
     <div className="min-h-screen bg-black overflow-hidden">
