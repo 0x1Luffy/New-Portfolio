@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL(""),
+	metadataBase: new URL("localhost:3000"),
 
 	title: 'Chetan Kesare',
 	authors: {
@@ -35,6 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+		<link rel="shortcut icon" href="/favicon.ico" />
       <body className={space_Grotesk.className}>
       <ThemeProvider
             attribute="class"
