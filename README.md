@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+    <img src="https://i.ibb.co/Jj5PRsg/new-Portfolio.png" alt="Portfolio Banner" style="max-width: 100%; height: auto;">
+</div>
+
 # Portfolio Website
 
 Welcome to my portfolio website! This repository contains the source code for my personal portfolio website built with Next.js, TypeScript, Tailwind CSS, and Shadcn UI.
