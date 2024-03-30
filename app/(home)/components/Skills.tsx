@@ -25,7 +25,7 @@ const Skills = () => {
                     Icon:TbBrandNextjs
                     },
                     {
-                        text:"PostgreSQL",
+                        text:"Postgres",
                         Icon:SiPostgresql
                         },
                         {
@@ -53,7 +53,7 @@ const Skills = () => {
                                                 Icon:SiHtml5
                                                 },
                                                 {
-                                                    text:"CSS(Flex&Grid)",
+                                                    text:"CSS",
                                                     Icon:SiCss3
                                                     },
 ]
