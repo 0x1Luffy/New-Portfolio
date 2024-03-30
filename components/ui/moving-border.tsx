@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+"use client"
 import {
   motion,
   useAnimationFrame,
@@ -18,6 +17,7 @@ export function MovingBorderBtn({
   borderClassName,
   duration,
   className,
+  onClick,
   ...otherProps
 }: {
   borderRadius?: string;
@@ -27,8 +27,28 @@ export function MovingBorderBtn({
   borderClassName?: string;
   duration?: number;
   className?: string;
+  onClick?: () => void;
   [key: string]: any;
 }) {
+  const handleOnClick = () => {
+    if (onClick) {
+      onClick();
+    }
+  };
+
+  const handleDownloadResume = () => {
+    
+    const resumeUrl = 'https://drive.google.com/uc?export=download&id=1Q57CXeUF2nMrFUqWe4yGHVVoSAmnWu8k';
+    
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'resume.pdf';
+    link.click();
+  };
+
+  
+  const handleClick = onClick ? handleOnClick : handleDownloadResume;
+
   return (
     <Component
       className={cn(
@@ -38,6 +58,7 @@ export function MovingBorderBtn({
       style={{
         borderRadius: borderRadius,
       }}
+      onClick={handleClick} 
       {...otherProps}
     >
       <div
