@@ -3,6 +3,9 @@ import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@vercel/analytics/react"
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
