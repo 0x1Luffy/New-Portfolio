@@ -4,7 +4,7 @@
 
 # Portfolio Website
 
-Welcome to my portfolio website! This repository contains the source code for my personal portfolio website built with Next.js, TypeScript, Tailwind CSS, and Shadcn UI.
+Looking for inspiration to create the best web developer portfolio website? Explore this personal portfolio website designed specifically for modern developers and creatives. Whether you're a full-stack web developer, a front-end web developer, or a graphic designer, this developer portfolio website offers the perfect foundation to showcase your skills. Built with React, this React portfolio website combines sleek design and performance for a standout online presence. Discover free portfolio website templates, explore web developer portfolio examples, and get unique web developer portfolio ideas to craft your own 3D portfolio website or professional site. Ideal for anyone seeking a free portfolio website that’s clean, responsive, and ready to impress.
 
 ## Introduction
 
